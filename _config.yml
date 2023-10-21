@@ -1,0 +1,31 @@
+title: Twoja Klatka (Wierzejska 23)
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  Platforma społecznościowa dla mieszkańców tego samego budynku mieszkalnego.
+  Tutaj znajdziesz najnowsze ogłoszenia, aktualności i reklamy dotyczące Twojego otoczenia.
+  Poznaj swoich sąsiadów lepiej i bądź na bieżąco z ważnymi informacjami.
+  Subskrybuj, aby otrzymywać powiadomienia e-mail o nowych postach.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:
+github_username:
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+minima:
+  date_format: "%F"
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/

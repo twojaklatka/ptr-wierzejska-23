@@ -9,13 +9,32 @@ layout: default
 
   {{ content }}
 
+  <div class="center">
+    {%- include newsletter-button.html -%}
+    <div style="width: 30px"></div>
+    {%- include new-post-button.html -%}
+  </div>
+
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posty" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+        <p class="post-meta">
+          <!-- Display span if post.date is not older than 7 days -->
+          {% assign current_time_minus_7_days = site.time | date: '%s' | minus: 604800 | plus: 0 %}
+          {% assign post_time = post.date | date: '%s' | plus: 0 %}
+          {% if post_time > current_time_minus_7_days %}
+          <span class="new label">Nowe</span>
+          {% endif %}
+
+            <span>{{ post.date | date: date_format }} </span>
+          {%- if post.type -%}
+            • <span class="{{ post.style }} label">{{ post.type }}</span>
+          {%- endif -%}
+        </p>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -29,4 +48,5 @@ layout: default
     </ul>
   {%- endif -%}
 
+  {%- include actions.html -%}
 </div>

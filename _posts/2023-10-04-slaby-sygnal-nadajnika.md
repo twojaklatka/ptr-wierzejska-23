@@ -1,15 +1,14 @@
 ---
 layout: post
 title:  "Słaby sygnał nadajnika - przekierowanie anteny na nadajnik Łódzki"
-date:   2023-10-21 11:15:43 +0200
+date:   2023-10-04 11:15:43 +0200
 categories: jekyll update
-image: /assets/img/1.jpg
-type: info
+image: /images/posts/2023-10-04-slaby-sygnal-tv.jpg
 ---
 
 <h2>Ogłoszenie!</h2>
 <p>
-Administracja P.P.U.H "DOM" Sp. z o.o. w Piotrkowie Tryb. informuje, że z powodu słabe sygnału nadajnika
+Administracja P.P.U.H "DOM" Sp. z o.o. w Piotrkowie Tryb. informuje, że z powodu słabego sygnału nadajnika
 antena została przekierowana na nadajnik Łódzki.
 </p>
 <p>

@@ -1,0 +1,33 @@
+<div class="divider"></div>
+<div class="center">
+    <div>
+        <p class="strong">
+            Zasubskrybuj aby otrzymywać powiadomienia o nowych informacjach na naszej wspólnej tablicy
+            <!--    <a class="button" href="{{ '/subskrypcja/' | relative_url }}"><button>Zasubskrybuj</button></a>-->
+        </p>
+        <p>
+            Będziemy wysłać Ci maila gdy tylko pojawi się jakiś nowy post na tablicy.
+        </p>
+        <div class="center">
+            {%- include newsletter-button.html -%}
+        </div>
+    </div>
+
+    <div class="divider"></div>
+    <div>
+        <p class="strong">
+            Jeśli chcesz zaproponować nowy post, lub chcesz się zareklamować na naszej tablicy, napisz do nas.
+        </p>
+        <p>
+            Poprawne zgłoszenie postu musi zawierać conjamniej załączone zdjęcie lub proponowany tekst postu.
+            W przeciwnym wypadku zgłoszenie zostanie odrzucone.
+        </p>
+        <br>
+        <!--<a class="button" href="{{ '/nowy-post/' | relative_url }}"><button>Dodaj nowy post</button></a>-->
+
+        <div class="center">
+            {%- include new-post-button.html -%}
+        </div>
+    </div>
+</div>
+

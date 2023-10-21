@@ -9,4 +9,4 @@ style: warn
 
 <h2>Informacja!</h2>
 <p class="strong">Prosimy o zamykanie furtki wejściowej do budynku od strony ulicy Wierzejskiej 23. Obecnie jest nizamykana i wchodzą osoby postronne.</p>
-<p class="comment">- Proszę naprawić domofon w furtce</p>
+<p class="comment">- Proszę naprawić elktrozamek w furtce, ponieważ nie działa on prawidłowo.</p>

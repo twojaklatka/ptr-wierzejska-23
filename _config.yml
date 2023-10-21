@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Tutaj znajdziesz najnowsze ogłoszenia, aktualności i reklamy dotyczące Twojego otoczenia.
   Poznaj swoich sąsiadów lepiej i bądź na bieżąco z ważnymi informacjami.
   Subskrybuj, aby otrzymywać powiadomienia e-mail o nowych postach.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ptr-wierzejska-23" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:

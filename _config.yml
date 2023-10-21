@@ -10,7 +10,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 logo: /assets/logo.png
-google_analytics: "G-K4RZZJ1ZGQ"
+google_analytics_id: "G-K4RZZJ1ZGQ"
 
 # Build settings
 theme: minima

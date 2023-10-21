@@ -2,7 +2,6 @@
 layout: post
 title:  "Informacja dla właścicieli lokali - zmiana systemu wpłat"
 date:   2022-10-04 11:15:43 +0200
-categories: jekyll update
 image: /images/posts/2022-10-04-zmiana-system-wplat.jpg
 type: Ważna Informacja
 style: warn

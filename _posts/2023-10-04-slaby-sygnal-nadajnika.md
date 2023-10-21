@@ -2,7 +2,6 @@
 layout: post
 title:  "Słaby sygnał nadajnika - przekierowanie anteny na nadajnik Łódzki"
 date:   2023-10-04 11:15:43 +0200
-categories: jekyll update
 image: /images/posts/2023-10-04-slaby-sygnal-tv.jpg
 ---
 

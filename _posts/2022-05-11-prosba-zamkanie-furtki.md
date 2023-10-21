@@ -2,7 +2,6 @@
 layout: post
 title:  "Prośba o zamykanie furtki wejściowej!"
 date:   2022-05-11 11:15:43 +0200
-categories: jekyll update
 image: /images/posts/2022-05-11-prosba-zamkanie-furtki.jpg
 type: Ważna Informacja
 style: warn

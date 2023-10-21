@@ -7,8 +7,11 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  <div class="center">
+    <img src="{{ site.logo | relative_url }}" alt="Logo">
+  </div>
 
+  {{ content }}
   <div class="center">
     {%- include newsletter-button.html -%}
     <div style="width: 30px"></div>

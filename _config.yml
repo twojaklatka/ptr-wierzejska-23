@@ -1,4 +1,4 @@
-title: Twoja Klatka (Wierzejska 23)
+title: Twoja Klatka
 email: twojaklatka@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Platforma społecznościowa dla mieszkańców tego samego budynku mieszkalnego.
@@ -10,6 +10,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 logo: /assets/logo.png
+google_analytics: "G-K4RZZJ1ZGQ"
 
 # Build settings
 theme: minima

@@ -3,5 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-list_title: Aktualności # This overrides what is set in the home.html
+list_title: Aktualności - Piotrków Tryb. ul. Wierzejska 23 # This overrides what is set in the home.html
 ---

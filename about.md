@@ -11,4 +11,9 @@ Chcemy, aby każdy mógł łatwo poznać swoich sąsiadów i wspólnie tworzyć 
 Subskrybuj nasz newsletter, aby być na bieżąco z najnowszymi aktualizacjami i wpisami na blogu.
 </p>
 
-{%- include actions.html -%}
+ **Jeśli masz jakieś sugestie/pomysły napisz do nas:**
+[{{ site.email }}](mailto:{{ site.email }}?subject=Sugestia)
+
+<div>
+    {%- include actions.html -%}
+</div>
